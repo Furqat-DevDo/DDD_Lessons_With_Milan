@@ -1,0 +1,6 @@
+﻿Entity takrorlanmas idga ega obyekt.
+ValueObject qiyamti teng bo'lgan holda o'ziham teng bo'ladigan obyekt turi bazan id'si bo'ladi bazan esa yo'q.
+Agregate bir nechta entitydan tashkil topgan entity agar uni ichidagi birorta entity mavjud bo'lmasa agregat yasalmaydi.
+
+Entitylarda getterlar public bo'ladi va setterlar private bo'ladi yangi entity yasash uchun public Create metodi qoldiriladi.
+Constructurlar esa private holatda bo'ladi.
