@@ -1,4 +1,4 @@
-﻿Entity takrorlanmas idga ega obyekt.
+﻿Entity takrorlanmas idga ega obyekt.Ikkita entityning qiymatlari harhil bo'lsaham ularning idlari teng bo'lsa ular teng hisoblanadi.
 ValueObject qiyamti teng bo'lgan holda o'ziham teng bo'ladigan obyekt turi bazan id'si bo'ladi bazan esa yo'q.
 Agregate bir nechta entitydan tashkil topgan entity agar uni ichidagi birorta entity mavjud bo'lmasa agregat yasalmaydi.
 
