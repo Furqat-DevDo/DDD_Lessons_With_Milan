@@ -1,4 +1,4 @@
-﻿namespace Domain.Customers;
+﻿namespace DomainModeling.Customers;
 
 public class Customer
 {

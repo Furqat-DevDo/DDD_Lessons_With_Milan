@@ -1,4 +1,4 @@
-﻿namespace Domain.Products;
+﻿namespace DomainModeling.Products;
 
 public class Product
 {

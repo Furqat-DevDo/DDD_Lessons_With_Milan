@@ -1,7 +1,7 @@
-﻿using Domain.Customers;
-using Domain.Products;
+﻿using StronglyTyped_Id.Customers;
+using StronglyTyped_Id.Products;
 
-namespace Domain.Orders;
+namespace StronglyTyped_Id.Orders;
 
 public class Order
 {

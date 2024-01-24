@@ -1,6 +1,6 @@
-﻿using Domain.Products;
+﻿using DomainModeling.Products;
 
-namespace Domain.Orders;
+namespace DomainModeling.Orders;
 
 public class LineItem
 {
