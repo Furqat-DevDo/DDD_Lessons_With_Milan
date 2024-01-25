@@ -10,15 +10,15 @@ public class Order
     {
         
     }
-    public Guid Id { get; private set; }
-    public Guid CustomerId { get; private set; }
+    public OrderId Id { get; private set; }
+    public CustomerId CustomerId { get; private set; }
     public List<LineItem> Items { get; private set; }
 
     public static Order Craete(Customer customer)
     {
         var order = new Order
         {
-            Id = Guid.NewGuid(),
+            Id = new OrderId(Guid.NewGuid()),
             CustomerId = customer.Id
         };
         
@@ -27,7 +27,7 @@ public class Order
     
     public void Add(Product product)
     {
-        var lineItem = new LineItem(Guid.NewGuid(), Id, product.Id, product.Price);
+        var lineItem = new LineItem(new LineItemId(Guid.NewGuid()),Id, product.Id, product.Price);
         _items.Add(lineItem);
     }
 }

@@ -1,0 +1,6 @@
+Primitive Obsession - Bu anti patern bo'lib ko'dda kichik obyektlar o'rniga oddiy data typelardan foydalanishni bildiradi.
+Masalan : Valyuta,Diapazon,Telefon raqamlari uchun maxsus stringlar va h.k. Odatda dasturchilar constanta string ga aslida logik jihatdan boshqa classga chiqishi kerak bo'lgan narsalarni tiqishadi.
+const string USER_ADMIN_ROLE = "1"; yokida const string CURRENCY = "Usd";
+
+Strongly typed Id oddiy data type o'rniga aniq tipga ega Id ishlatishni yo'li bunda parametrlar aniqroq bo'ladi va adashib ketmaydi.
+Maxsus Nuget Package bor nomi StronglyTypedId Ushani ishlatish mumkin.
