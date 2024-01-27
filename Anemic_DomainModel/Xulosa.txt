@@ -1,0 +1,3 @@
+﻿Anemic Domain Modeling : Bu Anti pattern hisoblanadi va bunda Entitylar public setterlarga ega bo'lib ularning yaratilish logicasi servicelarda bajariladi.
+Entitylar esa hech qanday biznes logikani o'zida aks ettirmaydi va DTO larga o'xshab qoladi. Entityni yasalish logikasi boshqa klassga chiqishi tufayli biznes logika ham usha yerga chiqadi.
+Bundan qochishning eng oson yo'li Entitylarni Domain Proyektda klassni ichida factory methodlar orqali yasash.
