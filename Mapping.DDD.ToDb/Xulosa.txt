@@ -1,0 +1,2 @@
+Strongly typed id laga HasConversion Methodi bilan yasash kere undan tashqari Efcoreda relationshiplarni va murakkab modellashtirishni bajarsa bo'ladi.
+HasKey,HasIndex,HasConversion yoki Owns kabi methodlaradn foydalansa bo'ladi. 
